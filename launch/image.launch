@@ -1,0 +1,7 @@
+<launch>
+ <!-- Define simple parameters -->
+
+<arg name="lambda"  default="-1.0"  />
+ <node pkg = "thermal_processing" name = "Thermal_image" type = "main.py" output = "screen">
+    </node>
+</launch>

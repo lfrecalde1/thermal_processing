@@ -1,0 +1,6 @@
+<launch>
+ <!-- Define simple parameters -->
+
+ <node pkg = "thermal_processing" name = "red_color_filter" type = "main_simulation.py" output = "screen">
+    </node>
+</launch>
