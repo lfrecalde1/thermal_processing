@@ -1,0 +1,7 @@
+<launch>
+ <!-- Define simple parameters -->
+
+<arg name="lambda"  default="-1.0"  />
+ <node pkg = "thermal_processing" name = "messages" type = "main_messages.py" output = "screen">
+    </node>
+</launch>
